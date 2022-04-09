@@ -12,11 +12,12 @@
 <body>
   <main class="page">
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="logo">
+      <img class="logo logo_place_header" src="./images/logo_place_header.svg" width="228" height="32" alt="Логотип практикума">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни? <a class="header__link" href="#">Узнать →</a></p>
-      <img class="header__main-illustration" src="./images/header-image.png" alt="main illustration">
+        жизни? <a class="header__link" href="#">Узнать &rarr;</a></p>
+        <!-- TODO @immacheta Разобраться, нужно ли ставить ./ перед src -->
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Изображение на фоне">
       <div class="header__square-pic"></div>
     </header>
     <content class="content">
@@ -81,7 +82,7 @@
       <section class="feynman">
         <h3 class="feynman__title">Метод Фейнмана</h3>
         <h4 class="feynman__subtitle">Выучить и не забыть</h4>
-        <a class="feynman__link" href="#">Подробнее →</a>
+        <a class="feynman__link" href="#">Подробнее &rarr;</a>
       </section>
       <section class="kaufman">
         <h3 class="section-title section-title_theme_dark">Принципы обучения</h3>
@@ -128,13 +129,48 @@
             <p class="table__text  table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" width="877" height="877" alt="triangle image">
+        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" width="877" height="877" alt="Изображение треугольник">
       </section>
     </content>
     <footer class="footer">
-
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" width="228" height="32" alt="Логотип Практикума">
+          <span class="author">&copy; Максим Ичетовкин</span>
+        </div>
+        <nav class="footer__column footer__column_content_info">
+          <span class="footer__column-heading">О Практикуме</span>
+          <ul class="footer__column-links">
+            <li class="footer__column-link">
+              <a class="footer__link" href="#">Главная</a>
+            </li>
+            <li class="footer__column-link">
+              <a class="footer__link" href="#">Концепция</a>
+            </li>
+            <li class="footer__column-link">
+              <a class="footer__link" href="#">Наставники</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__column footer__column_content_social">
+          <span class="footer__column-heading">Соцсети</span>
+          <ul class="footer__column-links">
+            <li class="footer__column-link">
+              <a class="footer__link" href="#">
+                <img class="footer__social-icon" src="./images/facebook_color_white.svg" width="16" height="16" alt="Логотип Фейсбука">Facebook</a>
+            </li>
+            <li class="footer__column-link">
+              <a class="footer__link" href="#">
+                <img class="footer__social-icon" src="./images/vk_color_white.svg" width="16" height="16" alt="Логотип ВК">ВКонтакте</a>
+            </li>
+            <li class="footer__column-link">
+              <a class="footer__link" href="#">
+                <img class="footer__social-icon" src="./images/instagram_color_white.svg" width="16" height="16" alt="Логотип Инстаграм">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </main>
 </body>
-
 </html>
