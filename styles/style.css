@@ -319,12 +319,6 @@
 }
 
 .footer__social-icon {
-  list-style-type: none;
-  margin: 0;
-  padding: 20px 0 16px 0;
-}
-
-.footer__social-icon {
   display: inline-block;
   margin: 0;
   padding: 0 10px 0 0;
