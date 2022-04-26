@@ -1,0 +1,12 @@
+.feynman {
+  height: 890px;
+  /* изменяем алгоритм расчета высоты блока, чтобы он включал паддинг */
+  box-sizing: border-box;
+  position: relative;
+  padding: 100px 0 0 0;
+  background-image: url(../../images/feynman.png);
+  background-size: 867px 637px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: #f2f2f2;
+}

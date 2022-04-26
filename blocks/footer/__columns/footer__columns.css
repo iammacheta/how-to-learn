@@ -1,0 +1,8 @@
+.footer__columns {
+  display: flex;
+  min-height: 350px;
+  width: 90%;
+  /* Выравниваем по центру */
+  margin: 0 auto;
+  justify-content: space-between;
+}
