@@ -2,7 +2,7 @@
   padding: 90px 0 90px 0;
   background-color: #1f1f1f;
   position: relative;
-  z-index: -2;
+  z-index: 0;
   /* Чтобы треугольник не выходил за границу блока */
   overflow: hidden;
 }

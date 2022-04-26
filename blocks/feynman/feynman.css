@@ -1,5 +1,5 @@
 .feynman {
-  height: 890px;
+  min-height: 890px;
   /* изменяем алгоритм расчета высоты блока, чтобы он включал паддинг */
   box-sizing: border-box;
   position: relative;
