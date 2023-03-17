@@ -5,20 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="root">
   <div class="page">
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип практикума">
+      <a href="https://practicum.yandex.ru/" target="_blank"><img class="logo logo_place_header"
+          src="./images/logo_place_header.svg" alt="Логотип практикума"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни? <a class="header__link opacity" href="#">Узнать &rarr;</a></p>
+        жизни? <a class="header__link opacity" href="#content">Узнать &rarr;</a></p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Изображение на фоне">
       <div class="header__square-pic rotation"></div>
     </header>
-    <main class="content">
+    <main id="content" class="content">
       <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -96,10 +97,10 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a class="feynman__link opacity" href="#">Подробнее &rarr;</a>
+        <a class="feynman__link opacity" href="#digits">Подробнее &rarr;</a>
       </section>
 
-      <section class="digits">
+      <section id="digits" class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
@@ -154,7 +155,10 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга Весь мир школа">
-            <a class="khan__buy-link opacity" href="#">Купить книгу &rarr;</a>
+            <a class="khan__buy-link opacity"
+              href="https://www.ozon.ru/product/ves-mir-shkola-preobrazovannoe-obrazovanie-162999126/?oos_search=false&sh=JMBanGmPew"
+              target="_blank">Купить
+              книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -212,16 +216,16 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
-          <a class="resources__link opacity" href="#">
+          <a class="resources__link opacity" href="https://arzamas.academy/" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас">
           </a>
-          <a class="resources__link opacity" href="#">
+          <a class="resources__link opacity" href="https://www.nplusonemag.com/" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н+1">
           </a>
-          <a class="resources__link opacity" href="#">
+          <a class="resources__link opacity" href="https://seiche.strelkamag.com/" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка">
           </a>
-          <a class="resources__link opacity" href="#">
+          <a class="resources__link opacity" href="https://polka.academy/" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка">
           </a>
         </div>
@@ -231,7 +235,9 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Практикума">
+          <a href="https://practicum.yandex.ru/" target="_blank">
+            <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Практикума">
+          </a>
           <small class="footer__author">&copy; Максим Ичетовкин</small>
         </div>
         <div class="footer__column footer__column_content_info">
@@ -239,13 +245,15 @@
           <nav>
             <ul class="footer__column-links">
               <li>
-                <a class="footer__column-link opacity" href="#">Главная</a>
+                <a class="footer__column-link opacity" href="https://practicum.yandex.ru/" target="_blank">Главная</a>
               </li>
               <li>
-                <a class="footer__column-link opacity" href="#">Концепция</a>
+                <a class="footer__column-link opacity" href="https://yandex.ru/support/praktikum/"
+                  target="_blank">Концепция</a>
               </li>
               <li>
-                <a class="footer__column-link opacity" href="#">Наставники</a>
+                <a class="footer__column-link opacity" href="https://yandex.ru/support/praktikum/mentors.html"
+                  target="_blank">Наставники</a>
               </li>
             </ul>
           </nav>
@@ -254,16 +262,16 @@
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link opacity" href="#">
+              <a class="footer__column-link opacity" href="https://vk.com/yandex.practicum" target="_blank">
                 <img class="footer__social-icon" src="./images/facebook_color_white.svg"
                   alt="Логотип Фейсбука">Facebook</a>
             </li>
             <li>
-              <a class="footer__column-link opacity" href="#">
+              <a class="footer__column-link opacity" href="https://www.facebook.com/yandex.practicum/" target="_blank">
                 <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип ВК">ВКонтакте</a>
             </li>
             <li>
-              <a class="footer__column-link opacity" href="#">
+              <a class="footer__column-link opacity" href="https://www.instagram.com/yndx.practicum/" target="_blank">
                 <img class="footer__social-icon" src="./images/instagram_color_white.svg"
                   alt="Логотип Инстаграм">Instagram</a>
             </li>
